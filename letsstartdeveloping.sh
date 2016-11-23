@@ -31,6 +31,7 @@ brew install postgresql
 brew install memcached
 brew install zsh-syntax-highlighting
 brew install reattach-to-user-namespace --wrap-pbcopy-and-pbpaste
+brew install docker 
 
 echo "launch memcached on startup"
 ln -sfv /usr/local/opt/memcached/*.plist ~/Library/LaunchAgents
